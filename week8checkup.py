@@ -47,8 +47,8 @@ phone1.set_name("Oulu's new iPhone")
 phone2.set_name("Lucy's new iphone")
 
 # Send messages between phones
-phone1.send_message(phone2, "Hi Lucy! How's it going?")
-phone2.send_message(phone1, "Hi Oulu! I'm doing well!")
+phone1.send_messages(phone2, "Hi Lucy! How's it going?")
+phone2.send_messages(phone1, "Hi Oulu! I'm doing well!")
 
 # Check messages on both phones
 phone1.check_messages()
