@@ -11,7 +11,7 @@ class iPhone:
         self.phone_number = phone_number
         self.color = color
         self.model = model 
-        self.files = []
+        self.messages = [] # stored recived messages
 
     def call(self, number):
         pass
